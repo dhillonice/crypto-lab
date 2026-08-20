@@ -1,3 +1,0 @@
-Network security protects computer systems from unauthorized access.
-
-Encryption helps keep sensitive information secure.

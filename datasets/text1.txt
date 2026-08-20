@@ -1,5 +1,0 @@
-Cryptography is the science of protecting information.
-
-This is the first sample text file for the CryptoLabX project.
-
-Students will analyze this file to count characters, words, lines and letter frequency.
