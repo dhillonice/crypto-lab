@@ -1,0 +1,5 @@
+# CryptoLabX Toolkit
+# Assignment 1
+
+# This project uses only Python's standard library.
+# No external packages are required.
