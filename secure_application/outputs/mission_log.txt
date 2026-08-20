@@ -1,0 +1,6 @@
+
+========== NEW MISSION ==========
+Waypoint 1: Name=WP1, Latitude=10.3600, Longitude=98.2100, Altitude=5.36
+Waypoint 2: Name=WP2, Latitude=5.0100, Longitude=32.4800, Altitude=56.00
+Waypoint 3: Name=WP3, Latitude=7.3200, Longitude=2.3600, Altitude=6.54
+Mission Status: COMPLETED

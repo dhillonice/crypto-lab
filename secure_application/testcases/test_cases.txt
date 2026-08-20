@@ -1,0 +1,119 @@
+DRONE CONTROL SYSTEM - TEST CASES
+
+TC01 - Normal Application Execution
+Purpose:
+Verify that the application executes the normal drone mission flow.
+
+Input:
+Username: admin
+Password: 1234
+Number of waypoints: 2
+Valid waypoint names and coordinates.
+
+Expected Result:
+Application accepts the input, executes the mission, displays telemetry
+for each waypoint, and saves the mission log.
+
+Actual Result:
+Application successfully executed the mission and displayed telemetry.
+
+
+TC02 - Missing Authentication
+Purpose:
+Demonstrate that the application does not verify the entered credentials.
+
+Input:
+Username: abc
+Password: xyz
+
+Expected Secure Result:
+Invalid credentials should deny access.
+
+Actual Result:
+Application displays "Login successful!" and proceeds to waypoint upload.
+
+Vulnerability:
+Missing Authentication
+
+
+TC03 - Normal Waypoint Input
+Purpose:
+Verify that valid waypoint information is accepted.
+
+Input:
+Waypoint Name: WP1
+Latitude: 26.9124
+Longitude: 75.7873
+Altitude: 100
+
+Expected Result:
+Waypoint is accepted and used during mission execution.
+
+Actual Result:
+Waypoint was successfully accepted.
+
+
+TC04 - Buffer Overflow
+Purpose:
+Test the waypoint name input with data exceeding the allocated buffer.
+
+Input:
+A string longer than the 20-character waypoint name buffer.
+
+Expected Secure Result:
+Application should reject or safely limit excessively long input.
+
+Actual Result:
+Application accepts the oversized input without enforcing a
+maximum input length.
+
+Vulnerability:
+Buffer Overflow
+
+
+TC05 - Normal File Handling
+Purpose:
+Verify that a mission log can be stored in a valid file.
+
+Input:
+Log filename: mission.txt
+
+Expected Result:
+Mission log is successfully created/saved.
+
+Actual Result:
+Mission log was successfully saved.
+
+
+TC06 - Insecure File Handling
+Purpose:
+Demonstrate that the application accepts a user-controlled file path
+without proper path validation.
+
+Input:
+../outputs/testlog.txt
+
+Expected Secure Result:
+Application should restrict file operations to an approved location.
+
+Actual Result:
+Application accepts the supplied path and creates/writes the log file
+at the specified location.
+
+Vulnerability:
+Insecure File Handling
+
+
+TC07 - Telemetry Update
+Purpose:
+Verify that telemetry changes according to the current waypoint.
+
+Input:
+Multiple waypoints with different latitude, longitude and altitude.
+
+Expected Result:
+Telemetry should display the current waypoint's location and altitude
+during mission execution.
+
+Actual Result:
+Telemetry was updated and displayed for each waypoint.
