@@ -1,3 +1,0 @@
-MNIT Jaipur offers a Cryptography Laboratory course.
-
-Students build CryptoLabX during the semester.
