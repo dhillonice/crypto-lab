@@ -1,0 +1,2 @@
+Plaintext: hello world this is a test
+Key: 7

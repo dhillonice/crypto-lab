@@ -1,0 +1,2 @@
+Plaintext: hello
+Key: 5
