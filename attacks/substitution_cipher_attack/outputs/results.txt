@@ -1,0 +1,477 @@
+MONOALPHABETIC SUBSTITUTION CIPHER
+==================================
+
+Substitution Key:
+a -> h
+b -> i
+c -> j
+d -> k
+e -> l
+f -> m
+g -> n
+h -> o
+i -> p
+j -> q
+k -> r
+l -> s
+m -> t
+n -> u
+o -> v
+p -> w
+q -> x
+r -> y
+s -> z
+t -> a
+u -> b
+v -> c
+w -> d
+x -> e
+y -> f
+z -> g
+
+Ciphertext:
+Hzzbtpun j = 1 mvy zptwspjpaf, h rlf vm slunao u = 60 wyvcpklz hklxbhal
+zljbypaf hnhpuza hu hkclyzhyf bzpun h klzravw jvtwbaly. Pukllk, vu h 4 NOg
+wyvjlzzvy (aoha leljbalz 4 × 10^9 jfjslz wly zljvuk) 2^60 JWB jfjslz ylxbpyl
+2^60/(4 × 10^9) zljvukz, vy hivba 9 flhyz. Ovdlcly, aol mhzalza zbwlyjvtwbaly ha
+aol aptl vm aopz dypapun jhu leljbal yvbnosf 2 × 10^16 msvhapun wvpua vwlyhapvuz
+wly zljvuk, huk 2^60 zbjo vwlyhapvuz ylxbpyl vusf hivba 1 tpubal vu zbjo h
+thjopul. Ahrpun u = 80 dvbsk il h tvyl wybklua jovpjl; lclu aol jvtwbaly
+qbza tluapvulk dvbsk ahrl hivba 2 flhyz av jhyyf vba 2^80 vwlyhapvuz.
+
+(Aol hivcl ubtilyz hyl mvy pssbzayhapcl wbywvzlz vusf; pu wyhjapjl j > 1, huk
+zlclyhs vaoly mhjavyz—zbjo hz aol aptl ylxbpylk mvy tltvyf hjjlzz huk aol
+wvzzpipspaf vm whyhssls jvtwbahapvu vu h uladvyr vm jvtwbalyz—zpnupmpjhuasf
+hmmlja aol wlymvythujl vm iybal-mvyjl haahjrz.)
+
+Avkhf, ovdlcly, h yljvttluklk rlf slunao tpnoa il u = 128. Aol kpmmlylujl
+iladllu 2^80 huk 2^128 pz h tbsapwspjhapcl mhjavy vm 2^48. Av nla h mllspun
+mvy ovd ipn aopz pz, uval aoha hjjvykpun av wofzpjpzaz' lzapthalz aol ubtily vm
+zljvukz zpujl aol Ipn Ihun pz vu aol vykly vm 2^58.
+
+Pm aol wyvihipspaf aoha hu haahjrly jhu zbjjlzzmbssf yljvcly hu lujyfwalk
+tlzzhnl pu vul flhy pz ha tvza 2^-60, aolu pa pz tbjo tvyl sprlsf aoha aol
+zlukly huk yljlpcly dpss ivao il opa if spnoaupun pu aoha zhtl wlypvk vm aptl.
+Hu lclua aoha vjjbyz vujl lclyf obukylk flhyz jhu il yvbnosf lzapthalk av
+vjjby dpao wyvihipspaf 2^-30 pu huf npclu zljvuk. Zvtlaopun aoha vjjbyz dpao
+wyvihipspaf 2^-60 pu huf npclu zljvuk pz 2^30 aptlz slzz sprlsf, huk tpnoa il
+lewljalk av vjjby yvbnosf vujl lclyf 100 ipsspvu flhyz.
+
+Aol jvujylal hwwyvhjo pz ptwvyahua pu wyhjapjl, zpujl jvujylal nbhyhuallz
+hyl doha bzlyz vm h jyfwavnyhwopj zjoltl hyl bsapthalsf pualylzalk pu. Ovdlcly,
+wyljpzl jvujylal nbhyhuallz hyl kpmmpjbsa av wyvcpkl. Mbyaolytvyl, vul tbza il
+jhylmbs pu pualywylapun jvujylal zljbypaf jshptz. Mvy lehtwsl, h jshpt aoha uv
+hkclyzhyf ybuupun mvy 5 flhyz jhu iylhr h npclu zjoltl dpao wyvihipspaf ilaaly
+aohu ε ilnz aol xblzapvuz: doha afwl vm jvtwbapun wvdly (l.n., klzravw WJ,
+zbwlyjvtwbaly, uladvyr vm obukylkz vm jvtwbalyz) kvlz aopz hzzbtl? Kvlz aopz
+ahrl puav hjjvbua mbabyl hkchujlz pu jvtwbapun wvdly (dopjo, if Tvvyl'z Shd,
+yvbnosf kvbislz lclyf 18 tvuaoz)? Kvlz aol lzapthal hzzbtl aol bzl vm
+“vmm-aol-zolsm” hsnvypaotz, vy klkpjhalk zvmadhyl ptwsltluahapvuz vwaptpglk
+mvy aol haahjr? Mbyaolytvyl, zbjo h nbhyhuall zhfz spaasl hivba aol zbjjlzz
+wyvihipspaf vm hu hkclyzhyf ybuupun mvy 2 flhyz (vaoly aohu aol mhja aoha pa jhu
+il ha tvza ε) huk zhfz uvaopun hivba aol zbjjlzz wyvihipspaf vm hu hkclyzhyf
+ybuupun mvy 10 flhyz.
+
+
+Frequency Analysis
+------------------
+l: 263 (12.63%)
+a: 197 (9.46%)
+v: 155 (7.44%)
+h: 154 (7.39%)
+y: 150 (7.20%)
+p: 137 (6.58%)
+z: 136 (6.53%)
+u: 131 (6.29%)
+j: 110 (5.28%)
+o: 84 (4.03%)
+b: 79 (3.79%)
+t: 57 (2.74%)
+w: 57 (2.74%)
+s: 57 (2.74%)
+k: 55 (2.64%)
+f: 53 (2.54%)
+m: 50 (2.40%)
+n: 43 (2.06%)
+i: 41 (1.97%)
+c: 24 (1.15%)
+d: 21 (1.01%)
+r: 15 (0.72%)
+x: 5 (0.24%)
+e: 4 (0.19%)
+g: 2 (0.10%)
+ε: 2 (0.10%)
+q: 1 (0.05%)
+
+Word Frequency Analysis
+-----------------------
+aol: 22
+vm: 16
+h: 13
+mvy: 9
+aoha: 9
+pu: 9
+flhyz: 7
+huk: 7
+il: 7
+pz: 7
+hu: 6
+av: 6
+wyvihipspaf: 6
+hivba: 5
+jhu: 5
+hkclyzhyf: 4
+vu: 4
+zljvuk: 4
+aopz: 4
+yvbnosf: 4
+zbjo: 4
+hyl: 4
+jvujylal: 4
+u: 3
+ovdlcly: 3
+ha: 3
+aptl: 3
+vwlyhapvuz: 3
+lclyf: 3
+dpao: 3
+npclu: 3
+ybuupun: 3
+kvlz: 3
+j: 2
+rlf: 2
+slunao: 2
+zljbypaf: 2
+klzravw: 2
+jvtwbaly: 2
+jfjslz: 2
+wly: 2
+ylxbpyl: 2
+zljvukz: 2
+vy: 2
+zbwlyjvtwbaly: 2
+vusf: 2
+dvbsk: 2
+tvyl: 2
+ahrl: 2
+wyhjapjl: 2
+vaoly: 2
+uladvyr: 2
+jvtwbalyz: 2
+tpnoa: 2
+ipn: 2
+zpujl: 2
+vul: 2
+tvza: 2
+pa: 2
+sprlsf: 2
+if: 2
+vjjbyz: 2
+vujl: 2
+vjjby: 2
+huf: 2
+nbhyhuallz: 2
+doha: 2
+zjoltl: 2
+mbyaolytvyl: 2
+aohu: 2
+jvtwbapun: 2
+wvdly: 2
+hzzbtl: 2
+zhfz: 2
+zbjjlzz: 2
+hzzbtpun: 1
+zptwspjpaf: 1
+wyvcpklz: 1
+hklxbhal: 1
+hnhpuza: 1
+bzpun: 1
+pukllk: 1
+nog: 1
+wyvjlzzvy: 1
+leljbalz: 1
+jwb: 1
+mhzalza: 1
+dypapun: 1
+leljbal: 1
+msvhapun: 1
+wvpua: 1
+tpubal: 1
+thjopul: 1
+ahrpun: 1
+wybklua: 1
+jovpjl: 1
+lclu: 1
+qbza: 1
+tluapvulk: 1
+jhyyf: 1
+vba: 1
+hivcl: 1
+ubtilyz: 1
+pssbzayhapcl: 1
+wbywvzlz: 1
+zlclyhs: 1
+mhjavyz: 1
+hz: 1
+ylxbpylk: 1
+tltvyf: 1
+hjjlzz: 1
+wvzzpipspaf: 1
+whyhssls: 1
+jvtwbahapvu: 1
+zpnupmpjhuasf: 1
+hmmlja: 1
+wlymvythujl: 1
+iybal: 1
+mvyjl: 1
+haahjrz: 1
+avkhf: 1
+yljvttluklk: 1
+kpmmlylujl: 1
+iladllu: 1
+tbsapwspjhapcl: 1
+mhjavy: 1
+nla: 1
+mllspun: 1
+ovd: 1
+uval: 1
+hjjvykpun: 1
+wofzpjpzaz: 1
+lzapthalz: 1
+ubtily: 1
+ihun: 1
+vykly: 1
+pm: 1
+haahjrly: 1
+zbjjlzzmbssf: 1
+yljvcly: 1
+lujyfwalk: 1
+tlzzhnl: 1
+flhy: 1
+aolu: 1
+tbjo: 1
+zlukly: 1
+yljlpcly: 1
+dpss: 1
+ivao: 1
+opa: 1
+spnoaupun: 1
+zhtl: 1
+wlypvk: 1
+lclua: 1
+obukylk: 1
+lzapthalk: 1
+zvtlaopun: 1
+aptlz: 1
+slzz: 1
+lewljalk: 1
+ipsspvu: 1
+hwwyvhjo: 1
+ptwvyahua: 1
+bzlyz: 1
+jyfwavnyhwopj: 1
+bsapthalsf: 1
+pualylzalk: 1
+wyljpzl: 1
+kpmmpjbsa: 1
+wyvcpkl: 1
+tbza: 1
+jhylmbs: 1
+pualywylapun: 1
+jshptz: 1
+lehtwsl: 1
+jshpt: 1
+uv: 1
+iylhr: 1
+ilaaly: 1
+ilnz: 1
+xblzapvuz: 1
+afwl: 1
+l: 1
+n: 1
+wj: 1
+obukylkz: 1
+puav: 1
+hjjvbua: 1
+mbabyl: 1
+hkchujlz: 1
+dopjo: 1
+tvvyl: 1
+z: 1
+shd: 1
+kvbislz: 1
+tvuaoz: 1
+lzapthal: 1
+bzl: 1
+vmm: 1
+zolsm: 1
+hsnvypaotz: 1
+klkpjhalk: 1
+zvmadhyl: 1
+ptwsltluahapvuz: 1
+vwaptpglk: 1
+haahjr: 1
+nbhyhuall: 1
+spaasl: 1
+mhja: 1
+uvaopun: 1
+
+One-letter words: ['j', 'h', 'u', 'l', 'n', 'z']
+Two-letter words: ['vm', 'hu', 'vu', 'vy', 'ha', 'il', 'av', 'pu', 'hz', 'pz', 'pm', 'pa', 'if', 'uv', 'wj']
+Three-letter words: ['mvy', 'rlf', 'nog', 'wly', 'jwb', 'aol', 'jhu', 'huk', 'vba', 'hyl', 'nla', 'ovd', 'ipn', 'vul', 'opa', 'huf', 'shd', 'bzl', 'vmm']
+
+Pattern Analysis
+----------------
+(0,) -> ['j', 'h', 'u', 'h', 'h', 'h', 'u', 'h', 'j', 'h', 'h', 'u', 'h', 'h', 'h', 'h', 'h', 'l', 'n', 'z', 'h']
+(0, 1, 2) -> ['mvy', 'rlf', 'nog', 'wly', 'jwb', 'aol', 'aol', 'jhu', 'wly', 'huk', 'aol', 'vba', 'aol', 'hyl', 'mvy', 'huk', 'aol', 'mvy', 'huk', 'aol', 'aol', 'rlf', 'aol', 'huk', 'nla', 'mvy', 'ovd', 'ipn', 'aol', 'aol', 'ipn', 'aol', 'aol', 'jhu', 'vul', 'aol', 'huk', 'opa', 'jhu', 'huf', 'huf', 'huk', 'aol', 'hyl', 'hyl', 'hyl', 'vul', 'mvy', 'mvy', 'jhu', 'aol', 'shd', 'aol', 'aol', 'bzl', 'aol', 'mvy', 'aol', 'aol', 'mvy', 'aol', 'jhu', 'huk', 'aol', 'mvy']
+(0, 1) -> ['vm', 'hu', 'vu', 'vy', 'ha', 'vm', 'vu', 'il', 'av', 'pu', 'hz', 'vm', 'vu', 'vm', 'vm', 'il', 'pz', 'vm', 'av', 'pz', 'av', 'vm', 'pz', 'vu', 'vm', 'pm', 'hu', 'hu', 'pu', 'pz', 'ha', 'pa', 'pz', 'il', 'if', 'pu', 'vm', 'hu', 'il', 'av', 'pu', 'pu', 'pz', 'il', 'av', 'pz', 'pu', 'vm', 'pu', 'av', 'il', 'pu', 'uv', 'vm', 'wj', 'vm', 'vm', 'pu', 'if', 'vm', 'vy', 'vm', 'hu', 'pa', 'il', 'ha', 'vm', 'hu']
+(0, 1, 2, 3, 4, 5) -> ['slunao', 'zljvuk', 'zljvuk', 'tpubal', 'ahrpun', 'slunao', 'mhjavy', 'ubtily', 'wlypvk', 'zljvuk', 'zljvuk', 'jshptz', 'tvuaoz']
+(0, 1, 2, 3, 4, 5, 6, 7) -> ['wyvcpklz', 'zljbypaf', 'jvtwbaly', 'msvhapun', 'jvtwbaly', 'zljbypaf', 'zvmadhyl']
+(0, 1, 2, 3, 4, 5, 0, 4, 6) -> ['hkclyzhyf', 'hkclyzhyf', 'hkclyzhyf', 'hkclyzhyf']
+(0, 1, 2, 3, 4) -> ['bzpun', 'hivba', 'flhyz', 'wvpua', 'hivba', 'dvbsk', 'dvbsk', 'hivba', 'flhyz', 'hivcl', 'vaoly', 'iybal', 'mvyjl', 'avkhf', 'tpnoa', 'zpujl', 'flhyz', 'npclu', 'npclu', 'aptlz', 'tpnoa', 'flhyz', 'zpujl', 'jshpt', 'flhyz', 'iylhr', 'npclu', 'wvdly', 'wvdly', 'zolsm', 'hivba', 'flhyz', 'vaoly', 'hivba', 'flhyz']
+(0, 1, 2, 3, 4, 5, 6) -> ['klzravw', 'yvbnosf', 'thjopul', 'wybklua', 'ubtilyz', 'mhjavyz', 'uladvyr', 'yvbnosf', 'yvbnosf', 'wyvcpkl', 'jhylmbs', 'klzravw', 'uladvyr', 'yvbnosf', 'kvbislz']
+(0, 1, 2, 0) -> ['aoha', 'aoha', 'aoha', 'aoha', 'aoha', 'aoha', 'aoha', 'aoha', 'zhfz', 'aoha', 'zhfz']
+(0, 1, 0, 2, 3, 4) -> ['jfjslz', 'jfjslz', 'tltvyf']
+(0, 1, 2, 3, 4, 0, 1) -> ['ylxbpyl', 'ylxbpyl']
+(0, 1, 2, 3, 4, 5, 0) -> ['zljvukz', 'zljvukz', 'lehtwsl']
+(0, 1, 2, 3, 4, 3, 5) -> ['ovdlcly', 'ovdlcly', 'ovdlcly']
+(0, 1, 2, 3, 4, 5, 6, 7, 2, 1, 8, 3, 4) -> ['zbwlyjvtwbaly', 'zbwlyjvtwbaly']
+(0, 1, 2, 3) -> ['aptl', 'aopz', 'zbjo', 'vusf', 'zbjo', 'tvyl', 'qbza', 'ahrl', 'vusf', 'zbjo', 'aptl', 'aopz', 'uval', 'ihun', 'flhy', 'tvza', 'aolu', 'tbjo', 'tvyl', 'ivao', 'zhtl', 'aptl', 'vujl', 'dpao', 'dpao', 'vujl', 'doha', 'tbza', 'dpao', 'aohu', 'ilnz', 'doha', 'afwl', 'kvlz', 'aopz', 'kvlz', 'aopz', 'ahrl', 'puav', 'kvlz', 'zbjo', 'aohu', 'mhja', 'tvza']
+(0, 1, 2, 3, 4, 5, 6, 0, 7, 8) -> ['vwlyhapvuz', 'vwlyhapvuz', 'vwlyhapvuz']
+(0, 1, 2, 3, 0, 4) -> ['jovpjl', 'sprlsf', 'sprlsf']
+(0, 1, 2, 0, 3, 4, 5, 4) -> ['wbywvzlz', 'jvujylal', 'jvujylal', 'jvujylal', 'jvujylal']
+(0, 1, 2, 3, 4, 5, 3, 6) -> ['wyhjapjl', 'wyhjapjl', 'obukylkz']
+(0, 1, 2, 3, 4, 5, 6, 7, 8) -> ['jvtwbalyz', 'zvtlaopun', 'jvtwbapun', 'jvtwbalyz', 'jvtwbapun']
+(0, 1, 1, 2, 3, 4) -> ['hmmlja', 'vjjbyz', 'vjjbyz', 'hzzbtl', 'hzzbtl']
+(0, 1, 1, 2, 3, 4, 5) -> ['mllspun', 'hjjvbua']
+(0, 1, 2, 3, 1) -> ['vykly', 'bzlyz', 'dopjo']
+(0, 1, 2, 3, 4, 3, 5, 6, 5, 7, 8) -> ['wyvihipspaf', 'wyvihipspaf', 'wyvihipspaf', 'wyvihipspaf', 'wyvihipspaf', 'wyvihipspaf']
+(0, 1, 2, 2) -> ['dpss', 'slzz']
+(0, 1, 0, 2, 3) -> ['lclua', 'lclyf', 'lclyf', 'lclyf']
+(0, 1, 1, 2, 3) -> ['vjjby', 'vjjby', 'tvvyl']
+(0, 1, 2, 3, 2, 4, 5, 6, 6, 7) -> ['nbhyhuallz', 'nbhyhuallz']
+(0, 1, 2, 3, 4, 3) -> ['zjoltl', 'zjoltl']
+(0, 1, 2, 3, 4, 5, 2, 6, 7, 2, 5) -> ['mbyaolytvyl', 'mbyaolytvyl']
+(0, 1, 2, 2, 3, 2, 4) -> ['ybuupun', 'ybuupun', 'ybuupun']
+(0, 1, 2, 2, 3, 0, 0) -> ['zbjjlzz', 'zbjjlzz']
+
+Recovered Key:
+a -> t
+b -> u
+c -> v
+d -> w
+e -> x
+f -> y
+g -> z
+h -> a
+i -> b
+j -> c
+k -> d
+l -> e
+m -> f
+n -> g
+o -> h
+p -> i
+q -> j
+r -> k
+s -> l
+t -> m
+u -> n
+v -> o
+w -> p
+x -> q
+y -> r
+z -> s
+
+Partial Plaintext
+-----------------
+Assuming c = 1 for simplicity, a key of length n = 60 provides adequate
+security against an adversary using a desktop computer. Indeed, on a 4 GHz
+processor (that executes 4 × 10^9 cycles per second) 2^60 CPU cycles require
+2^60/(4 × 10^9) seconds, or about 9 years. However, the fastest supercomputer at
+the time of this writing can execute roughly 2 × 10^16 floating point operations
+per second, and 2^60 such operations require only about 1 minute on such a
+machine. Taking n = 80 would be a more prudent choice; even the computer
+just mentioned would take about 2 years to carry out 2^80 operations.
+
+(The above numbers are for illustrative purposes only; in practice c > 1, and
+several other factors—such as the time required for memory access and the
+possibility of parallel computation on a network of computers—significantly
+affect the performance of brute-force attacks.)
+
+Today, however, a recommended key length might be n = 128. The difference
+between 2^80 and 2^128 is a multiplicative factor of 2^48. To get a feeling
+for how big this is, note that according to physicists' estimates the number of
+seconds since the Big Bang is on the order of 2^58.
+
+If the probability that an attacker can successfully recover an encrypted
+message in one year is at most 2^-60, then it is much more likely that the
+sender and receiver will both be hit by lightning in that same period of time.
+An event that occurs once every hundred years can be roughly estimated to
+occur with probability 2^-30 in any given second. Something that occurs with
+probability 2^-60 in any given second is 2^30 times less likely, and might be
+expected to occur roughly once every 100 billion years.
+
+The concrete approach is important in practice, since concrete guarantees
+are what users of a cryptographic scheme are ultimately interested in. However,
+precise concrete guarantees are difficult to provide. Furthermore, one must be
+careful in interpreting concrete security claims. For example, a claim that no
+adversary running for 5 years can break a given scheme with probability better
+than ε begs the questions: what type of computing power (e.g., desktop PC,
+supercomputer, network of hundreds of computers) does this assume? Does this
+take into account future advances in computing power (which, by Moore's Law,
+roughly doubles every 18 months)? Does the estimate assume the use of
+“off-the-shelf” algorithms, or dedicated software implementations optimized
+for the attack? Furthermore, such a guarantee says little about the success
+probability of an adversary running for 2 years (other than the fact that it can
+be at most ε) and says nothing about the success probability of an adversary
+running for 10 years.
+
+
+Recovered Plaintext:
+Assuming c = 1 for simplicity, a key of length n = 60 provides adequate
+security against an adversary using a desktop computer. Indeed, on a 4 GHz
+processor (that executes 4 × 10^9 cycles per second) 2^60 CPU cycles require
+2^60/(4 × 10^9) seconds, or about 9 years. However, the fastest supercomputer at
+the time of this writing can execute roughly 2 × 10^16 floating point operations
+per second, and 2^60 such operations require only about 1 minute on such a
+machine. Taking n = 80 would be a more prudent choice; even the computer
+just mentioned would take about 2 years to carry out 2^80 operations.
+
+(The above numbers are for illustrative purposes only; in practice c > 1, and
+several other factors—such as the time required for memory access and the
+possibility of parallel computation on a network of computers—significantly
+affect the performance of brute-force attacks.)
+
+Today, however, a recommended key length might be n = 128. The difference
+between 2^80 and 2^128 is a multiplicative factor of 2^48. To get a feeling
+for how big this is, note that according to physicists' estimates the number of
+seconds since the Big Bang is on the order of 2^58.
+
+If the probability that an attacker can successfully recover an encrypted
+message in one year is at most 2^-60, then it is much more likely that the
+sender and receiver will both be hit by lightning in that same period of time.
+An event that occurs once every hundred years can be roughly estimated to
+occur with probability 2^-30 in any given second. Something that occurs with
+probability 2^-60 in any given second is 2^30 times less likely, and might be
+expected to occur roughly once every 100 billion years.
+
+The concrete approach is important in practice, since concrete guarantees
+are what users of a cryptographic scheme are ultimately interested in. However,
+precise concrete guarantees are difficult to provide. Furthermore, one must be
+careful in interpreting concrete security claims. For example, a claim that no
+adversary running for 5 years can break a given scheme with probability better
+than ε begs the questions: what type of computing power (e.g., desktop PC,
+supercomputer, network of hundreds of computers) does this assume? Does this
+take into account future advances in computing power (which, by Moore's Law,
+roughly doubles every 18 months)? Does the estimate assume the use of
+“off-the-shelf” algorithms, or dedicated software implementations optimized
+for the attack? Furthermore, such a guarantee says little about the success
+probability of an adversary running for 2 years (other than the fact that it can
+be at most ε) and says nothing about the success probability of an adversary
+running for 10 years.
+
+
+Verification:
+
+Verification: SUCCESS
