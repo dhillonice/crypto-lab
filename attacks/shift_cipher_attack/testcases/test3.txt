@@ -1,2 +1,0 @@
-Plaintext: cryptography is important for computer security
-Key: 15

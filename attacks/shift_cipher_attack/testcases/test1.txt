@@ -1,2 +1,0 @@
-Plaintext: this is a secret message
-Key: 3
