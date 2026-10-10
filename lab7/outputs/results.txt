@@ -1,24 +1,6 @@
 Original plaintext: Padding oracle attack demonstration.
-IV: 4baf731997ba12b4d0cc242ed23ee04b
-Ciphertext: bf8bbd64a85596a07efc47b5b5c57d9aa4a553266402ac9d45c22c2f09e150f46dddc677504c71fcc2e8d30392c2a9d1
+IV: 3830e9bd6c86271e2297d315df4683c5
+Ciphertext: 2b1ddfc290fc1e868471b3f78f634475ac1a5bc62409468473133697214add07ed1b18547b06e8b52dad2245dbbe0663
 Recovered plaintext: Padding oracle attack demonstration.
-Oracle queries: 6554
-Recovery successful: True
-Original plaintext: Padding oracle attack demonstration.
-IV: 528040422722f3cbf13e6e6a465d50fe
-Ciphertext: 2f2bddee961dab56484ccc1148a25b4740d9dacb76ce800a1496f9eced9fefd233a73f369b19aa58fd5ad10b2ade43cb
-Recovered plaintext: Padding oracle attack demonstration.
-Oracle queries: 5905
-Recovery successful: True
-Original plaintext: Padding oracle attack demonstration.
-IV: 5d156013de85eb1519fe9cde6d961a92
-Ciphertext: 1b9b2b773a141779b0fc99bccc1bd13c247f329456d136d056ad3d0c8c018b8efd1f8a7ebf948adc2abae782e922e0de
-Recovered plaintext: Padding oracle attack demonstration.
-Oracle queries: 5984
-Recovery successful: True
-Original plaintext: Padding oracle attack demonstration.
-IV: 9916785402db96d5c7c07841d1e0ae9f
-Ciphertext: c8292845cf5b9231cc11bcd55b8b9b5208689c23ccc0ad1575a9cb5da612b6089ea20e357515e621da5f7db29dd28663
-Recovered plaintext: Padding oracle attack demonstration.
-Oracle queries: 6575
+Oracle queries: 5952
 Recovery successful: True
