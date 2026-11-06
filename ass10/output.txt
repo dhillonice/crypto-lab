@@ -1,0 +1,31 @@
+
+========== PART A ==========
+
+Original Plaintext: 0$^JF&lAAAAAAAAAAAAAA
+Original Seed: 40294
+Ciphertext (hex): f2e8a04816f815d67fb6de4c153894ff459ea0286f
+Decrypted Plaintext: 0$^JF&lAAAAAAAAAAAAAA
+Encryption/Decryption Verified: True
+
+----- SEED RECOVERY ATTACK -----
+Recovered Seed: 40294
+Recovered Plaintext: 0$^JF&lAAAAAAAAAAAAAA
+Position of Known Pattern: 7
+Recovered Keystream Segment: 973ef79f0d5479d5be04dfe1692e
+Full Plaintext Verification: True
+Known Pattern Verification: True
+
+========== PART B ==========
+
+Original Timestamp: 1793958696
+Observed Token: bfe5790443c546572a9959aa56ab8a94
+
+----- TIMESTAMP RECOVERY ATTACK -----
+Search Start: 1793958396
+Search End: 1793958996
+Candidates Tested: 601
+Recovered Timestamp: 1793958696
+Regenerated Token: bfe5790443c546572a9959aa56ab8a94
+Token Verification: True
+
+========== ASSIGNMENT COMPLETED ==========
